@@ -8,7 +8,6 @@ format:
       - right=15mm
       - bottom=5mm
       - heightrounded
-    fontfamily: libertine
     colorlinks: true
     fontsize: '16'
     include-in-header: 
@@ -16,20 +15,28 @@ format:
         \usepackage{multicol}
         \usepackage{lipsum}
         \usepackage{hyperref}
-        \usepackage{libertine}
         \pagestyle{empty}
         \setlength{\multicolsep}{2pt plus 1.0pt minus 0.75pt}% 50% of original values
         \setlength{\columnsep}{3em}
 ---
-<!-- TITLE -->
-\begin{huge}\begin{center}{\bf ALEX BASS}\end{center}\end{huge}
 
+<!-- TITLE -->
+
+```{=tex}
+\begin{huge}\begin{center}{\bf MASON WALKER}\end{center}\end{huge}
+```
 <!-- CONTACT INFO -->
-\begin{center}acbass49@gmail.com ∙ \href{https://alexbass.me/projects.html}{Portfolio} ∙ \href{https://github.com/acbass49}{Github} ∙ \href{https://www.linkedin.com/in/alex-bass-4a7465161/}{LinkedIn}
+
+```{=tex}
+\begin{center} 
+Address: 5446 Lauretta Street \#D San Diego, CA 92110 \\
+∙ \href{https://alexbass.me/projects.html}{Portfolio} ∙ \href{https://github.com/acbass49}{Github} ∙ \href{https://www.linkedin.com/in/alex-bass-4a7465161/}{LinkedIn}
 \end{center}
 \vspace{15pt}
-
+```
 <!-- EDUCATION: 1ST BULLET -->
+
+```{=tex}
 \begin{large}
   {\bf EDUCATION}
   \vspace{3pt}
@@ -43,10 +50,12 @@ format:
     \begin{flushleft}Master of Science: Data Science\end{flushleft}
   \end{multicols}
 \end{large}
-
+```
 \vspace{0.05cm}
 
 <!-- EDUCATION: 2ND BULLET -->
+
+```{=tex}
 \begin{large}
   \begin{multicols}{2}
     \begin{flushleft}{\bf Brigham Young University}\end{flushleft}
@@ -58,18 +67,22 @@ format:
   \end{multicols}
 \end{large}
 \vspace{1.5pt}
-
+```
 <!-- SKILLS -->
+
+```{=tex}
 \begin{large}{\bf SKILLS}
   \vspace{3pt}
   \hrule
 \end{large}
 \vspace{-0.16cm}
-**Languages and Tools** - *proficient:* Python, R, Bash *intermediate:* Spark, SQL, Tensorflow/Keras, Git, Docker  
+```
+**Languages and Tools** - *proficient:* Python, R, Bash *intermediate:* Spark, SQL, Tensorflow/Keras, Git, Docker\
 **Selected Coursework** - Deep Learning, Bayesian Machine Learning, Big Data Systems with Spark, Linear Models for Data Science, Statistical Learning, Data Engineering, Linear Algebra, Econometrics I & II, Data Visualization, Programming in Python
 
-
 <!-- EXPERIENCE : 1ST BULLET-->
+
+```{=tex}
 \begin{large}{\bf EXPERIENCE}
   \vspace{3pt}
   \hrule
@@ -84,12 +97,15 @@ format:
   {multicols}
 \end{large}
 \vspace{-0.16cm}
-* Delivered 30+ advanced analytical studies (MTA, drivers analysis, diff-in-diff) to high profile clients including 15+ to marketing teams at **Google and Meta**
-* Built diff-in-diff and multi-touch attribution model codebase in Python(OOP) for Ad Data Science Team. This codebase has **saved 100+ hours and brought over in $2 million in revenue to date**
+```
+-   Delivered 30+ advanced analytical studies (MTA, drivers analysis, diff-in-diff) to high profile clients including 15+ to marketing teams at **Google and Meta**
+-   Built diff-in-diff and multi-touch attribution model codebase in Python(OOP) for Ad Data Science Team. This codebase has **saved 100+ hours and brought over in \$2 million in revenue to date**
 
 \vspace{7pt}
 
 <!-- EXPERIENCE : 2ND BULLET -->
+
+```{=tex}
 \begin{large}
   \begin{multicols}{2}
     \begin{flushleft}{\bf \href{https://archive.org/}{Internet Archive}}\end{flushleft}
@@ -103,12 +119,15 @@ format:
   \end{multicols}
 \end{large}
 \vspace{-0.16cm}
-* **Solved entity resolution problem with Gradient Boosted Trees** \href{https://alexbass.me/projects/internet_archive/}{[here]} linking sparse wikipedia references to Internet Archive Database References
-* Implemented model in Python \href{https://github.com/acbass49/wiki2ia}{[here]} which, given a wikipedia reference, will return a match in the Internet Archive Database along with a probability of matching.
+```
+-   **Solved entity resolution problem with Gradient Boosted Trees** \href{https://alexbass.me/projects/internet_archive/}{[here]} linking sparse wikipedia references to Internet Archive Database References
+-   Implemented model in Python \href{https://github.com/acbass49/wiki2ia}{[here]} which, given a wikipedia reference, will return a match in the Internet Archive Database along with a probability of matching.
 
 \vspace{7pt}
 
 <!-- EXPERIENCE : 3RD BULLET -->
+
+```{=tex}
 \begin{large}
   \begin{multicols}{2}
     \begin{flushleft}{\bf \href{https://morningconsult.com/}{Morning Consult}}\end{flushleft}
@@ -122,13 +141,16 @@ format:
   \end{multicols}
 \end{large}
 \vspace{-0.16cm}
-* **Developed and automated wave-over-wave statistical tests on time series data** in 17 tracker surveys of 5 countries
-* Led project to build a Python Web Bot (Selenium) to automate generation of test cases in surveys, contributed this to data science code base (used by 60+ data scientists)
-* Over 300+ requests, pulled data from API or large database into R, wrangled data using R, and output figures and tables
+```
+-   **Developed and automated wave-over-wave statistical tests on time series data** in 17 tracker surveys of 5 countries
+-   Led project to build a Python Web Bot (Selenium) to automate generation of test cases in surveys, contributed this to data science code base (used by 60+ data scientists)
+-   Over 300+ requests, pulled data from API or large database into R, wrangled data using R, and output figures and tables
 
 \vspace{7pt}
 
 <!-- EXPERIENCE : 4TH BULLET -->
+
+```{=tex}
 \begin{large}
   \begin{multicols}{2}
     \begin{flushleft}{\bf \href{https://echeloninsights.com/}{Echelon Insights}}\end{flushleft}
@@ -141,13 +163,16 @@ format:
   \end{multicols}
 \end{large}
 \vspace{-0.16cm}
-* Led in modeling projects **predicting election turnout for entire U.S. in 2022**, phone response rates, etc.
-* Wrangled, cleaned, weighted, or made presentations for 60+ survey datasets with R, SQL, and AWS
-* Using R Shiny, built a codeless-crosstab tool for company’s research team
+```
+-   Led in modeling projects **predicting election turnout for entire U.S. in 2022**, phone response rates, etc.
+-   Wrangled, cleaned, weighted, or made presentations for 60+ survey datasets with R, SQL, and AWS
+-   Using R Shiny, built a codeless-crosstab tool for company’s research team
 
 \vspace{7pt}
 
 <!-- EXPERIENCE : 5TH BULLET -->
+
+```{=tex}
 \begin{large}
   \begin{multicols}{2}
     \begin{flushleft}{\bf \href{http://csed.byu.edu/}{Center for Elections and Democracy}}\end{flushleft}
@@ -160,13 +185,16 @@ format:
   \end{multicols}
 \end{large}
 \vspace{-0.16cm}
-* Designed and executed multiple survey experiments in original research projects
-* Mentored 60+ students in solving econometrics problems in weekly office hours
-* Visualized data using R creating 50+ informative figures for AFS official report \href{https://csed.byu.edu/0000017e-2611-d5d4-a57f-277126ef0001/american-family-survey-2019-report-pdf}{[here]}, news outlets, and professor’s projects
+```
+-   Designed and executed multiple survey experiments in original research projects
+-   Mentored 60+ students in solving econometrics problems in weekly office hours
+-   Visualized data using R creating 50+ informative figures for AFS official report \href{https://csed.byu.edu/0000017e-2611-d5d4-a57f-277126ef0001/american-family-survey-2019-report-pdf}{[here]}, news outlets, and professor’s projects
 
 \vspace{7pt}
 
 <!-- PERSONAL PROJECTS : 1ST BULLET -->
+
+```{=tex}
 \begin{large}
 {\bf SELECTED PROJECTS}
   \vspace{3pt}
@@ -177,11 +205,14 @@ format:
   \end{multicols}
   \vspace{-0.17cm}
 \end{large}
-* Compared and estimated several Bayesian Regression models with PYMC3 in Python. Ultimately, used **hierarchal negative binomial model** to predict shootings and make inferences about gun laws
+```
+-   Compared and estimated several Bayesian Regression models with PYMC3 in Python. Ultimately, used **hierarchal negative binomial model** to predict shootings and make inferences about gun laws
 
 \vspace{7pt}
 
 <!-- PERSONAL PROJECTS : 3RD BULLET -->
+
+```{=tex}
 \begin{large}
   \begin{multicols}{2}
     \begin{flushleft}\textit{\href{https://alexbass.me/projects/star_wars_capstone/}{Political Message Detection and Likeability in Films}}\end{flushleft}
@@ -189,5 +220,6 @@ format:
   \end{multicols}
   \vspace{-0.17cm}
 \end{large}
-* recieved award from Political Science department to fund a panel survey (n=1000).
-* estimated linear regression and multinomial logit in observational study context and wrote paper \href{https://alexbass.me/projects/star_wars_capstone/Capstone%20Project.pdf}{[here]} on findings.
+```
+-   recieved award from Political Science department to fund a panel survey (n=1000).
+-   estimated linear regression and multinomial logit in observational study context and wrote paper \href{https://alexbass.me/projects/star_wars_capstone/Capstone%20Project.pdf}{[here]} on findings.%20Project.pdf}{\[here\]} on findings.%20Project.pdf%20Project.pdf}{\[here\]} on findings.%20Project.pdf}{\[here\]} on findings.%20Project.pdf%20Project.pdf

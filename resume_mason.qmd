@@ -6,15 +6,16 @@ format:
       - top=10mm
       - left=15mm
       - right=15mm
-      - bottom=5mm
+      - bottom=10mm
       - heightrounded
     colorlinks: true
-    fontsize: '16'
+    fontsize: '12'
     include-in-header: 
       text: |
         \usepackage{multicol}
         \usepackage{lipsum}
         \usepackage{hyperref}
+        \usepackage{enumitem}
         \pagestyle{empty}
         \setlength{\multicolsep}{2pt plus 1.0pt minus 0.75pt}% 50% of original values
         \setlength{\columnsep}{3em}
@@ -25,15 +26,18 @@ format:
 ```{=tex}
 \begin{huge}\begin{center}{\bf MASON WALKER}\end{center}\end{huge}
 ```
+
 <!-- CONTACT INFO -->
 
 ```{=tex}
+
 \begin{center} 
-Address: 5446 Lauretta Street \#D San Diego, CA 92110 \\
-∙ \href{https://alexbass.me/projects.html}{Portfolio} ∙ \href{https://github.com/acbass49}{Github} ∙ \href{https://www.linkedin.com/in/alex-bass-4a7465161/}{LinkedIn}
+{\bf Address}: 5446 Lauretta Street \#D San Diego, CA 92110 \\
+{\bf Phone}: (209) 728-5288 | {\bf Email}: masonewalker@gmail.com
 \end{center}
-\vspace{15pt}
+
 ```
+
 <!-- EDUCATION: 1ST BULLET -->
 
 ```{=tex}
@@ -41,33 +45,139 @@ Address: 5446 Lauretta Street \#D San Diego, CA 92110 \\
   {\bf EDUCATION}
   \vspace{3pt}
   \hrule
-  \begin{multicols}{2}
-    \begin{flushleft}{\bf University of Virginia}\end{flushleft}
-    \begin{flushright}Charlottesville, VA\end{flushright}
-  \end{multicols}
-  \vspace{-0.17cm}
-  \begin{multicols}{2}
-    \begin{flushleft}Master of Science: Data Science\end{flushleft}
-  \end{multicols}
 \end{large}
+
+\begin{multicols}{2}
+  \begin{flushleft}{\bf Northwestern University}\end{flushleft}
+  \begin{flushright}Evanston, IL\end{flushright}
+\end{multicols}
+\vspace{-0.17cm}
+\begin{multicols}{2}
+  \begin{flushleft} \textit{Master of Science, Data Science}
+  \end{flushleft}
+\end{multicols}
+
 ```
 \vspace{0.05cm}
 
 <!-- EDUCATION: 2ND BULLET -->
 
 ```{=tex}
-\begin{large}
-  \begin{multicols}{2}
-    \begin{flushleft}{\bf Brigham Young University}\end{flushleft}
-    \begin{flushright}Provo, UT\end{flushright}
-  \end{multicols}
-  \vspace{-0.17cm}
-  \begin{multicols}{2}
-    \begin{flushleft}Bachelor of Arts: Political Science\end{flushleft}
-  \end{multicols}
-\end{large}
+
+\begin{multicols}{2}
+  \begin{flushleft}{\bf University of California, Santa Barbara}\end{flushleft}
+  \begin{flushright}Santa Barbara, CA\end{flushright}
+\end{multicols}
+\vspace{-0.17cm}
+\begin{multicols}{2}
+  \begin{flushleft} \textit{Bachelor of Arts, Political Science}
+  \end{flushleft}
+\end{multicols}
 \vspace{1.5pt}
 ```
+
+
+<!-- EXPERIENCE : 1ST BULLET-->
+
+
+```{=tex}
+\begin{large}{\bf EXPERIENCE}
+  \vspace{3pt}
+  \hrule
+\end{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf San Diego Gas \& Electric}\end{flushleft}
+    \begin{flushright} San Diego, CA \end{flushright}
+  \end{multicols}
+  \vspace{-0.12cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Research Analyst}\end{flushleft}
+    \begin{flushright} \textit{March 2022-present} \end{flushright}\end
+  {multicols}
+    \vspace{-0.12cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\ \end{flushleft}
+    \begin{flushright} Hours per week: 40 \end{flushright}\end
+  {multicols}
+
+
+```
+
+```{=tex}
+  \vspace{1.5pt}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Responsibilities:}\end{flushleft}
+\end{multicols}
+\vspace{-0.16cm}
+\begin{enumerate}[itemsep=4.5pt,parsep=0pt,topsep=0pt,label = {\bullet}]
+
+    \item As a research analyst, serve as a resource for senior management on research, technical and other matters; complete special projects, as assigned; coordinate/respond to data requests, including those from our regulator and other government agencies requiring advanced subject matter/statistical knowledge; work with other SDG\&E analysts to coordinate the research needed to respond to requests for information about our customers; develop/give presentations to internal/external stakeholders regarding customer metrics.
+
+
+  \item Led a state-mandated project requiring SDG\&E to target certain customers for specific electric rates \& technologies; used cluster analysis to create customer profiles of 500k customers using a combination of internal SDG\&E and Census data to segment customers based on demographics and electric usage; cluster analysis was later used with supervised machine learning to predict which customers might be likely candidates for the proposed new rates. 
+  
+  
+  \item Member of SDG\&E's Office of Data Science, a small volunter team responsible for helping foster and spread data science across the company; helped develop one of SDG\&E's first data dive events, an all day event focused on teaching the basics of cluster analysis to others at the company; helped test the feasibility of deploying graph databases across the company and creating learning materials for the Cypher language; helped create internal how-to guides detailing to employees how they can access and install various data science tools, such as Conda, Git, Python, R, and Azure DevOps.  
+
+    
+  \item Manage all aspects of survey questionnaire and design for the marketing team, including managing survey vendor relations and survey sampling procedures; help develop survey weights and other bias reduction techniques with the survey data given from vendors; review data files for accuracy, completeness, and adherence to company standards.
+  
+  
+  \item Create interactive dashboards in R Shiny illustrating various metrics and descriptive characteristics of SDG\&E customers for senior management and staff; merged SDG\&E data with various government data sources, such as Census, BLS and other sources to illustrate underserved \& harder to reach communities in the broader San Diego area for company focus, results were later incorporated into regulatory briefings; built interactive demographic profiles of customers at each zip code/census tract level for more targeted marketing campaigns and customer modeling.    
+
+    
+\end{enumerate}
+
+```
+
+
+\vspace{0.5cm}
+
+
+<!-- EDUCATION: 2ND BULLET -->
+
+
+```{=tex}
+
+\begin{multicols}{2}
+  \begin{flushleft}{\bf Pew Research Center}\end{flushleft}
+  \begin{flushright} Washington, DC \end{flushright}
+\end{multicols}
+\vspace{-0.12cm}
+\begin{multicols}{2}
+  \begin{flushleft}\textit{Research Analyst I \& II}\end{flushleft}
+  \begin{flushright} \textit{Jan 2020-March 2022} \end{flushright}\end
+{multicols}
+  \vspace{-0.12cm}
+\begin{multicols}{2}
+  \begin{flushleft}\ \end{flushleft}
+  \begin{flushright} Hours per week: 40 \end{flushright}\end
+{multicols}
+
+
+```
+
+```{=tex}
+  \vspace{1.5pt}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Responsibilities:}\end{flushleft}
+\end{multicols}
+\vspace{-0.16cm}
+\begin{enumerate}[itemsep=4.5pt,parsep=0pt,topsep=0pt,label = {\bullet}]
+
+    \item Wrote and authored a mix of comprehensive, lengthy research reports and relatively short analyses of research findings pertaining to Americans' attitudes towards the news media and newsroom demographics; analyzed and interpreted survey, demographic, or other data using statistical and other research tools; translated quantitative research findings into non-academic, clear prose for a general audience.
+
+    \item Conducted statistical analysis of both survey and non-survey data
+
+
+    
+\end{enumerate}
+
+```
+
+\vspace{7pt}
+
+
 <!-- SKILLS -->
 
 ```{=tex}
@@ -80,146 +190,96 @@ Address: 5446 Lauretta Street \#D San Diego, CA 92110 \\
 **Languages and Tools** - *proficient:* Python, R, Bash *intermediate:* Spark, SQL, Tensorflow/Keras, Git, Docker\
 **Selected Coursework** - Deep Learning, Bayesian Machine Learning, Big Data Systems with Spark, Linear Models for Data Science, Statistical Learning, Data Engineering, Linear Algebra, Econometrics I & II, Data Visualization, Programming in Python
 
-<!-- EXPERIENCE : 1ST BULLET-->
+\vspace{7pt}
+
+<!-- PUBLICATIONS -->
 
 ```{=tex}
-\begin{large}{\bf EXPERIENCE}
+\begin{large}
+{\bf PUBLICATIONS}
   \vspace{3pt}
   \hrule
-  \begin{multicols}{2}
-    \begin{flushleft}{\bf \href{https://www.dynata.com/}{Dynata}}\end{flushleft}
-    \begin{flushright}Aug 2022-Present\end{flushright}
-  \end{multicols}
   \vspace{-0.17cm}
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{Data Scientist, Marketing}\end{flushleft}
-    \begin{flushright}Herndon, VA\end{flushright}\end
-  {multicols}
 \end{large}
-\vspace{-0.16cm}
 ```
--   Delivered 30+ advanced analytical studies (MTA, drivers analysis, diff-in-diff) to high profile clients including 15+ to marketing teams at **Google and Meta**
--   Built diff-in-diff and multi-touch attribution model codebase in Python(OOP) for Ad Data Science Team. This codebase has **saved 100+ hours and brought over in \$2 million in revenue to date**
+
+
+```{=tex}
+\vspace{0.25cm}
+
+\begin{itemize}[label={},itemindent=-2em,leftmargin=2em, itemsep=3pt, parsep=3pt]
+
+\item []  \href{https://www.pewresearch.org/fact-tank/2022/02/15/nearly-a-quarter-of-americans-get-news-from-podcasts/}{``Nearly a quarter of Americans get news from podcasts"} Walker. \textit{Pew Research Center}, 2022. 
+
+\item []  \href{https://www.pewresearch.org/journalism/2021/09/20/news-consumption-across-social-media-in-2021/}{``News consumption across social media in 2021"} Walker \& Matsa. \textit{Pew Research Center}, 2021. 
+
+\item []  \href{https://www.pewresearch.org/fact-tank/2021/08/18/more-americans-now-say-government-should-take-steps-to-restrict-false-information-online-than-in-2018/}{``More Americans now say government should take steps to restrict false information online than in 2018"} Mitchell \& Walker. \textit{Pew Research Center}, 2021.
+
+\item []  \href{https://www.pewresearch.org/fact-tank/2021/07/13/u-s-newsroom-employment-has-fallen-26-since-2008/}{``U.S. newsroom employment has fallen 26\% since 2008"} Walker. \textit{Pew Research Center}, 2021.
+
+\item []  \href{https://www.pewresearch.org/fact-tank/2021/05/21/a-third-of-large-u-s-newspapers-experienced-layoffs-in-2020-more-than-in-2019/}{``A third of large U.S. newspapers experienced layoffs in 2020, more than in 2019"} Walker \& Matsa. \textit{Pew Research Center}, 2021.
+
+\item []  \href{https://www.pewresearch.org/fact-tank/2020/10/29/nearly-2800-newspaper-companies-received-ppp-loans/}{``Nearly 2,800 newspaper companies received paycheck protection loans, and most were under \$150K"} Walker \& Matsa. \textit{Pew Research Center}, 2020.
+
+\item []  \href{https://www.pewresearch.org/fact-tank/2020/10/28/americans-blame-unfair-news-coverage-on-media-outlets-not-the-journalists-who-work-for-them/}{``Americans blame unfair news coverage on media outlets, not the journalists who work for them"} Walker \& Gottfried. \textit{Pew Research Center}, 2020.
+
+\item []  \href{https://www.pewresearch.org/fact-tank/2020/10/09/most-americans-see-a-place-for-anonymous-sources-in-news-stories-but-not-all-the-time/}{``Most Americans see a place for anonymous sources in news stories, but not all the time"} Gottfried \& Walker. \textit{Pew Research Center}, 2020.
+
+\item []  \href{https://www.journalism.org/2020/08/31/americans-see-skepticism-of-news-media-as-healthy-say-public-trust-in-the-institution-can-improve/}{``Americans see skepticism of news media as healthy, say public trust in the institution can improve"} Gottfried, Walker, Mitchell. \textit{Pew Research Center}, 2020.
+
+\item[] \href{https://www.journalism.org/2020/05/08/americans-views-of-the-news-media-during-the-covid-19-outbreak//}{``Americans' views of the news media during the COVID-19 outbreak"} Gottfried, Walker, Mitchell. \textit{Pew Research Center}, 2020.
+
+\item[] \href{https://www.journalism.org/2020/01/24/u-s-media-polarization-and-the-2020-election-a-nation-divided//}{``U.S. media polarization and the 2020 election: A nation divided"} Jurkowitz, Mitchell, Shearer, Walker. \textit{Pew Research Center}, 2020.
+
+\item[] \href{https://www.pewresearch.org/journalism/2019/12/12/trusting-the-news-media-in-the-trump-era/}{``Trusting the news media in the Trump era"} Gottfried, Stocking, Grieco, Walker, Khuzam, Mitchell. \textit{Pew Research Center}, 2019.
+
+\item[] \href{https://www.pewresearch.org/fact-tank/2019/11/19/americans-favor-mobile-devices-over-desktops-and-laptops-for-getting-news/}{``Americans favor mobile devices over desktops and laptops for getting news"} Walker. \textit{Pew Research Center}, 2019.
+
+\item[] \href{https://www.pewresearch.org/fact-tank/2019/09/12/who-pays-for-local-news-in-the-u-s/}{``Who pays for local news in the U.S.?"} Walker. \textit{Pew Research Center}, 2019.
+
+\item[] \href{https://www.pewresearch.org/fact-tank/2019/06/27/republicans-far-more-likely-than-democrats-to-say-fact-checkers-tend-to-favor-one-side/}{``Republicans far more likely than Democrats to say fact-checkers tend to favor one side"} Walker, Gottfried. \textit{Pew Research Center}, 2019.
+
+\item[] \href{https://www.pewresearch.org/journalism/2019/06/05/many-americans-say-made-up-news-is-a-critical-problem-that-needs-to-be-fixed/}{``Many Americans say made-up news is a critical problem that needs to be fixed"} Mitchell, Gottfried, Stocking, Walker, Fedeli. \textit{Pew Research Center}, 2019.
+
+\item[] \href{https://www.pewresearch.org/journalism/2019/04/23/news-media-attitudes-in-france/}{``News media attitudes in France
+"} Sumida, Walker, Mitchell. \textit{Pew Research Center}, 2019.
+
+\item[] \href{https://www.pewresearch.org/journalism/2018/10/30/western-europeans-under-30-view-news-media-less-positively-rely-more-on-digital-platforms-than-older-adults/}{``Western Europeans under 30 view news media less positively, rely more on digital platforms than older adults"} Matsa, Silver, Shearer, Walker. \textit{Pew Research Center}, 2018.
+
+\item[] \href{https://www.pewresearch.org/journalism/2018/05/14/in-western-europe-public-attitudes-toward-news-media-more-divided-by-populist-views-than-left-right-ideology/}{``In Western Europe, public attitudes toward news media more divided by populist views than left-right ideology"} Mitchell, Simmons, Matsa, Silver, Shearer, Johnson, Walker, Taylor. \textit{Pew Research Center}, 2018.
+
+\end{itemize}
+
+
+```
+
 
 \vspace{7pt}
 
-<!-- EXPERIENCE : 2ND BULLET -->
+<!-- PRESENTATIONS -->
 
 ```{=tex}
 \begin{large}
-  \begin{multicols}{2}
-    \begin{flushleft}{\bf \href{https://archive.org/}{Internet Archive}}\end{flushleft}
-    \begin{flushright}Nov 2022-May 2023\end{flushright}
-  \end{multicols}
-  \vspace{-0.17cm}
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{Intern, Data Science}\end
-    {flushleft}\begin{flushright}Washington, D.C.\end
-    {flushright}
-  \end{multicols}
-\end{large}
-\vspace{-0.16cm}
-```
--   **Solved entity resolution problem with Gradient Boosted Trees** \href{https://alexbass.me/projects/internet_archive/}{[here]} linking sparse wikipedia references to Internet Archive Database References
--   Implemented model in Python \href{https://github.com/acbass49/wiki2ia}{[here]} which, given a wikipedia reference, will return a match in the Internet Archive Database along with a probability of matching.
-
-\vspace{7pt}
-
-<!-- EXPERIENCE : 3RD BULLET -->
-
-```{=tex}
-\begin{large}
-  \begin{multicols}{2}
-    \begin{flushleft}{\bf \href{https://morningconsult.com/}{Morning Consult}}\end{flushleft}
-    \begin{flushright}Nov 2021-Aug 2022\end{flushright}
-  \end{multicols}
-  \vspace{-0.17cm}
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{Senior Data Analyst}\end
-    {flushleft}\begin{flushright}Washington, D.C.\end
-    {flushright}
-  \end{multicols}
-\end{large}
-\vspace{-0.16cm}
-```
--   **Developed and automated wave-over-wave statistical tests on time series data** in 17 tracker surveys of 5 countries
--   Led project to build a Python Web Bot (Selenium) to automate generation of test cases in surveys, contributed this to data science code base (used by 60+ data scientists)
--   Over 300+ requests, pulled data from API or large database into R, wrangled data using R, and output figures and tables
-
-\vspace{7pt}
-
-<!-- EXPERIENCE : 4TH BULLET -->
-
-```{=tex}
-\begin{large}
-  \begin{multicols}{2}
-    \begin{flushleft}{\bf \href{https://echeloninsights.com/}{Echelon Insights}}\end{flushleft}
-    \begin{flushright}April 2020-Nov 2021\end{flushright}
-  \end{multicols}
-  \vspace{-0.17cm}
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{Research Analyst}\end{flushleft}
-    \begin{flushright}Alexandria, VA\end{flushright}
-  \end{multicols}
-\end{large}
-\vspace{-0.16cm}
-```
--   Led in modeling projects **predicting election turnout for entire U.S. in 2022**, phone response rates, etc.
--   Wrangled, cleaned, weighted, or made presentations for 60+ survey datasets with R, SQL, and AWS
--   Using R Shiny, built a codeless-crosstab tool for company’s research team
-
-\vspace{7pt}
-
-<!-- EXPERIENCE : 5TH BULLET -->
-
-```{=tex}
-\begin{large}
-  \begin{multicols}{2}
-    \begin{flushleft}{\bf \href{http://csed.byu.edu/}{Center for Elections and Democracy}}\end{flushleft}
-    \begin{flushright}Dec 2018-April 2020\end{flushright}
-  \end{multicols}
-  \vspace{-0.17cm}
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{Research Fellow}\end{flushleft}
-    \begin{flushright}Provo, UT\end{flushright}
-  \end{multicols}
-\end{large}
-\vspace{-0.16cm}
-```
--   Designed and executed multiple survey experiments in original research projects
--   Mentored 60+ students in solving econometrics problems in weekly office hours
--   Visualized data using R creating 50+ informative figures for AFS official report \href{https://csed.byu.edu/0000017e-2611-d5d4-a57f-277126ef0001/american-family-survey-2019-report-pdf}{[here]}, news outlets, and professor’s projects
-
-\vspace{7pt}
-
-<!-- PERSONAL PROJECTS : 1ST BULLET -->
-
-```{=tex}
-\begin{large}
-{\bf SELECTED PROJECTS}
+{\bf PRESENTATIONS}
   \vspace{3pt}
   \hrule
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{\href{https://github.com/acbass49/school-shootings}{Bayesian County-Level School Shooting Analysis}}\end{flushleft}
-    \begin{flushright}August 2022\end{flushright}
-  \end{multicols}
   \vspace{-0.17cm}
 \end{large}
 ```
--   Compared and estimated several Bayesian Regression models with PYMC3 in Python. Ultimately, used **hierarchal negative binomial model** to predict shootings and make inferences about gun laws
 
-\vspace{7pt}
-
-<!-- PERSONAL PROJECTS : 3RD BULLET -->
 
 ```{=tex}
-\begin{large}
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{\href{https://alexbass.me/projects/star_wars_capstone/}{Political Message Detection and Likeability in Films}}\end{flushleft}
-    \begin{flushright}April 2020\end{flushright}
-  \end{multicols}
-  \vspace{-0.17cm}
-\end{large}
+\vspace{0.25cm}
+
+\begin{itemize}[label={},itemindent=-2em,leftmargin=2em, itemsep=3pt, parsep=3pt]
+
+\item []  The League of Women Voters of Nebraska, ``Media Literacy in an Age of Disinformation", Nov. 4, 2021. 
+
+\item []  American Association of Public Opinion Research (AAPOR) Annual Conference, Media Attitudes Session, ``Studying how media habits and attitudes relate to perceptions of the 2020 election: A year-long survey series", June 12, 2020. 
+
+\item []  American Association of Public Opinion Research (AAPOR) Annual Conference Poster Session, ``Comparing Estimates of Newsroom Employees in U.S. Government and Private-Sector Surveys", May 18, 2019.
+
+\end{itemize}
+
+
 ```
--   recieved award from Political Science department to fund a panel survey (n=1000).
--   estimated linear regression and multinomial logit in observational study context and wrote paper \href{https://alexbass.me/projects/star_wars_capstone/Capstone%20Project.pdf}{[here]} on findings.%20Project.pdf}{\[here\]} on findings.%20Project.pdf%20Project.pdf}{\[here\]} on findings.%20Project.pdf}{\[here\]} on findings.%20Project.pdf%20Project.pdf

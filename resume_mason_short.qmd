@@ -104,18 +104,14 @@ format:
 \end{large}
   \begin{multicols}{2}
     \begin{flushleft}{\bf San Diego Gas \& Electric}\end{flushleft}
-    \begin{flushright} 8326 Century Park CT, San Diego, CA 92123 \end{flushright}
+    \begin{flushright} San Diego, CA\end{flushright}
   \end{multicols}
   \vspace{-0.12cm}
   \begin{multicols}{2}
     \begin{flushleft}\textit{Research Analyst}\end{flushleft}
-    \begin{flushright} \textit{March 14, 2022-present} \end{flushright}\end
+    \begin{flushright} \textit{2022-present} \end{flushright}\end
   {multicols}
-    \vspace{-0.12cm}
-  \begin{multicols}{2}
-    \begin{flushleft}\ \end{flushleft}
-    \begin{flushright} Hours/week: 40 \end{flushright}\end
-  {multicols}
+    \vspace{0.12cm}
 
 ```
 ```{=tex}
@@ -151,20 +147,18 @@ format:
 
 \begin{multicols}{2}
   \begin{flushleft}{\bf Pew Research Center}\end{flushleft}
-  \begin{flushright} 1615 L St NW Suite 800, Washington, DC 20036 \end{flushright}
+  \begin{flushright} Washington, DC \end{flushright}
 \end{multicols}
 \vspace{-0.12cm}
 \begin{multicols}{2}
   \begin{flushleft}\textit{Research Analyst I \& II}\end{flushleft}
-  \begin{flushright} \textit{January 13, 2020-March 3, 2022} \end{flushright}\end
+  \begin{flushright} \textit{2020-2022} \end{flushright}\end
 {multicols}
-  \vspace{-0.12cm}
-\begin{multicols}{2}
-  \begin{flushleft}\ \end{flushleft}
-  \begin{flushright} Hours/week: 40 \end{flushright}\end
-{multicols}
+  \vspace{0.12cm}
 
 ```
+
+
 ```{=tex}
   \vspace{1.5pt}
   \begin{multicols}{2}
@@ -193,20 +187,17 @@ format:
 
 \begin{multicols}{2}
   \begin{flushleft}{\bf Pew Research Center}\end{flushleft}
-  \begin{flushright} 1615 L St NW Suite 800, Washington, DC 20036 \end{flushright}
+  \begin{flushright} Washington, DC \end{flushright}
 \end{multicols}
 \vspace{-0.12cm}
 \begin{multicols}{2}
   \begin{flushleft}\textit{Research Assistant I \& II}\end{flushleft}
-  \begin{flushright} \textit{September 5, 2017-January 13, 2020} \end{flushright}\end
+  \begin{flushright} \textit{2017-2020} \end{flushright}\end
 {multicols}
-  \vspace{-0.12cm}
-\begin{multicols}{2}
-  \begin{flushleft}\ \end{flushleft}
-  \begin{flushright} Hours/week: 40 \end{flushright}\end
-{multicols}
+  \vspace{0.12cm}
 
 ```
+
 ```{=tex}
   \vspace{1.5pt}
   \begin{multicols}{2}

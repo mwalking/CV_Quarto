@@ -31,8 +31,9 @@ format:
 ```{=tex}
 
 \begin{center} 
-{\bf Address}: 5446 Lauretta Street \#D San Diego, CA 92110 \\
-{\bf Phone}: (209) 728-5288 | {\bf Email}: masonewalker@gmail.com | {\bf Citizenship}: USA
+{\bf Address}: San Diego, CA | 
+{\bf Phone}: (209) 728-5288 | 
+{\bf Email}: masonewalker@gmail.com 
 \end{center}
 ```
 <!-- EDUCATION: 1ST BULLET -->
@@ -52,7 +53,7 @@ format:
 \begin{multicols}{2}
   \begin{flushleft} \textit{Master of Science, Data Science}
   \end{flushleft}
-  \begin{flushright} \textit{2021-2023}
+  \begin{flushright} \textit{2021 - 2023}
   \end{flushright}
 \end{multicols}
 ```
@@ -70,31 +71,13 @@ format:
 \begin{multicols}{2}
   \begin{flushleft} \textit{Bachelor of Arts, Political Science}
   \end{flushleft}
-  \begin{flushright} \textit{2013-2017}
+  \begin{flushright} \textit{2013 - 2017}
   \end{flushright}
 \end{multicols}
-\vspace{1.5pt}
+\vspace{1.25pt}
 ```
-\vspace{0.05cm}
 
-<!-- EDUCATION: 3rd BULLET -->
 
-```{=tex}
-
-\begin{multicols}{2}
-  \begin{flushleft}{\bf University of Maryland, Joint Program in Survey Methodolgy}\end{flushleft}
-  \begin{flushright} College Park, MD\end{flushright}
-\end{multicols}
-\vspace{-0.17cm}
-\begin{multicols}{2}
-  \begin{flushleft} \textit{Graduate Certificate, Fundamentals of Survey Statistics}
-  \end{flushleft}
-  \begin{flushright} \textit{2024-present} \end{flushright}
-\end{multicols}
-
-\vspace{1.5pt}
-
-```
 <!-- EXPERIENCE : 1ST BULLET-->
 
 ```{=tex}
@@ -104,46 +87,45 @@ format:
 \end{large}
   \begin{multicols}{2}
     \begin{flushleft}{\bf San Diego Gas \& Electric}\end{flushleft}
-    \begin{flushright} 8326 Century Park CT, San Diego, CA 92123 \end{flushright}
+    \begin{flushright} San Diego, CA\end{flushright}
   \end{multicols}
   \vspace{-0.12cm}
   \begin{multicols}{2}
     \begin{flushleft}\textit{Research Analyst}\end{flushleft}
-    \begin{flushright} \textit{March 14, 2022-present} \end{flushright}\end
+    \begin{flushright} \textit{2022 - Present} \end{flushright}\end
   {multicols}
-    \vspace{-0.12cm}
-  \begin{multicols}{2}
-    \begin{flushleft}\ \end{flushleft}
-    \begin{flushright} Hours/week: 40 \end{flushright}\end
-  {multicols}
+    \vspace{0.06cm}
 
 ```
+
+
 ```{=tex}
-  \vspace{1.5pt}
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{Responsibilities:}\end{flushleft}
-\end{multicols}
-\vspace{-0.16cm}
+
+  \vspace{1pt}
 \begin{enumerate}[itemsep=4.5pt,parsep=0pt,topsep=0pt,label = {\bullet}]
 
-    \item As a research analyst, serve as a resource for senior management on research, technical and other matters; complete special projects, as assigned; coordinate/respond to data requests, including those from our regulator and other government agencies requiring advanced subject matter/statistical knowledge; work with other SDG\&E analysts to coordinate the research needed to respond to requests for information about our customers; develop/give presentations to internal/external stakeholders regarding customer metrics.
+
+    \item Serve as a main resource for senior management on research, technical and other matters; complete projects as assigned; respond to data requests, including those from our regulator and other agencies requiring advanced subject matter or statistical knowledge.
 
 
-  \item Led a state-mandated project requiring SDG\&E to target certain customers for specific electric rates \& technologies; used cluster analysis to create customer profiles of 500k customers using a combination of internal SDG\&E and Census data to segment customers based on demographics and electric usage; cluster analysis was later used with supervised machine learning to predict which customers might be likely candidates for the proposed new rates. 
+  \item Led a state-mandated project to target certain customers for specific electric rates \& technologies; used unsupervised machine learning to segment 500k customers to predict which customers might be likely candidates for proposed new rate plans. 
   
   
-  \item Member of SDG\&E's Office of Data Science, a small volunter team responsible for helping foster and spread data science across the company; helped develop one of SDG\&E's first data dive events, an all day event focused on teaching the basics of cluster analysis to others at the company; helped test the feasibility of deploying graph databases across the company and creating learning materials for the Cypher language; helped create internal how-to guides detailing to employees how they can access and install various data science tools, such as Conda, Git, Python, R, and Azure DevOps.  
+  \item Senior member of SDG\&E's Office of Data Science, a small team responsible for helping foster and spread data science across the company; help create learning guides to get folks started in their data science journey \& lead company-wide data science events.
 
-    
-  \item Oversee all aspects of survey questionnaire and design for the marketing team, including managing survey vendor relations and survey sampling procedures; help develop methods to create survey weights and other bias reduction techniques with the survey data given from vendors; review data files for accuracy, completeness, and adherence to company standards.
+
+  \item Mentor junior staff members and teach them data science best practices \& provide feedback on their work.
+
+
+  \item Oversee all aspects of survey questionnaire and design for the marketing team, including managing survey vendor relations and survey sampling procedures; create survey weights as needed; review data files for accuracy, completeness, and adherence to company standards.
+ 
   
-  
-  \item Create interactive dashboards in R Shiny illustrating various metrics and descriptive characteristics of SDG\&E customers for senior management and staff; merged SDG\&E data with various government data sources, such as Census, BLS and other sources to illustrate underserved \& harder to reach communities in the broader San Diego area for company focus, results were later incorporated into regulatory briefings; built interactive demographic profiles of customers at each zip code/census tract level for more targeted marketing campaigns and customer modeling.    
+  \item Work on various customer facing data science projects, such as improving the forecasting model used to predict daily customer call volumes; using Chat-GPT API to automate the analysis of open-end survey responses; create scripts to web-scrape survey data \& automate company KPI's.      
 
     
 \end{enumerate}
 ```
-\vspace{0.5cm}
+\vspace{0.3cm}
 
 <!-- EXPERIENCE: 2ND BULLET -->
 
@@ -151,41 +133,41 @@ format:
 
 \begin{multicols}{2}
   \begin{flushleft}{\bf Pew Research Center}\end{flushleft}
-  \begin{flushright} 1615 L St NW Suite 800, Washington, DC 20036 \end{flushright}
+  \begin{flushright} Washington, DC \end{flushright}
 \end{multicols}
 \vspace{-0.12cm}
 \begin{multicols}{2}
   \begin{flushleft}\textit{Research Analyst I \& II}\end{flushleft}
-  \begin{flushright} \textit{January 13, 2020-March 3, 2022} \end{flushright}\end
+  \begin{flushright} \textit{2020 - 2022} \end{flushright}\end
 {multicols}
-  \vspace{-0.12cm}
-\begin{multicols}{2}
-  \begin{flushleft}\ \end{flushleft}
-  \begin{flushright} Hours/week: 40 \end{flushright}\end
-{multicols}
+  \vspace{0.12cm}
 
 ```
+
+
 ```{=tex}
   \vspace{1.5pt}
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{Responsibilities:}\end{flushleft}
-\end{multicols}
 \vspace{-0.16cm}
 \begin{enumerate}[itemsep=4.5pt,parsep=0pt,topsep=0pt,label = {\bullet}]
 
-    \item Wrote and authored a mix of comprehensive, lengthy research reports and relatively short analyses of research findings pertaining to Americans' attitudes towards the news media and newsroom demographics; analyzed and interpreted survey, demographic, or other data using statistical and other research tools; translated quantitative research findings into non-academic, clear prose for a general audience.
-
-    \item Conducted statistical analysis of both survey and non-survey data; created cross-tabs of survey data using the statistical software R and SPSS; created OLS and logistic regression models in R on survey data to test survey findings and control for confounding variables; created automated scripts in R to test for inter-coder reliability using Cronbach's alpha on open-end survey data; tested the statistical significance of survey findings; calculated variance and standard errors of Census microdata survey estimates using jacknife replicate weights in R.  
+    \item Authored comprehensive research reports and short analyses on Americans’ attitudes towards news media and newsroom demographics; analyzed and interpreted data using statistical tools; translated findings into clear prose for a general audience.
     
-  \item Managed various Pew Research Center projects and publications; responsible for leading meetings, overseeing, and creating strict documentation for junior staff members to follow for the manual coding and categorization of open-end survey and non-survey data; created the sampling frame of Pew's journalist survey, which included over 100k+ journalists in the frame, also supervised the development of the webscraping used to create the frame; led a small team of interns and junior staffers in performing a content analysis of newsroom layoff data, results were later part of a short report.
+
+    \item Conducted statistical analysis of survey and non-survey data using R and SPSS; created regression models, automated scripts for inter-coder reliability and tested statistical significance of findings.  
+    
+    
+  \item Managed various Pew Research Center projects and publications; responsible for leading meetings, overseeing, and creating strict documentation for junior staff members to follow for the manual coding and categorization of open-end survey and non-survey data.
   
-  \item Created and coauthored a series of short reports using economic and demographic data from the Census Bureau and Bureau of Labor Statistics to describe the changing landscape of newsroom employment and employees in the U.S.; collected and analyzed the data and coordinated with members of BLS and Census to better understand the scopes and limits of the data; the reports were some of the most cited from the Pew journalism team.
+  
+  \item Created the sampling frame of Pew's journalist survey, which included over 100k+ journalists in the survey sample, also supervised the development of the web-scraping used to create the frame \& gather the email addresses for the sample.
+  
+  \item Coauthored reports on newsroom employment using Census and BLS data; coordinated with BLS and Census members to understand the data; these reports were some of the most highly cited by the Pew journalism team.
 
 
     
 \end{enumerate}
 ```
-\vspace{0.5cm}
+\vspace{0.3cm}
 
 <!-- EXPERIENCE: 3rd BULLET -->
 
@@ -193,39 +175,34 @@ format:
 
 \begin{multicols}{2}
   \begin{flushleft}{\bf Pew Research Center}\end{flushleft}
-  \begin{flushright} 1615 L St NW Suite 800, Washington, DC 20036 \end{flushright}
+  \begin{flushright} Washington, DC \end{flushright}
 \end{multicols}
 \vspace{-0.12cm}
 \begin{multicols}{2}
   \begin{flushleft}\textit{Research Assistant I \& II}\end{flushleft}
-  \begin{flushright} \textit{September 5, 2017-January 13, 2020} \end{flushright}\end
+  \begin{flushright} \textit{2017 - 2020} \end{flushright}\end
 {multicols}
-  \vspace{-0.12cm}
-\begin{multicols}{2}
-  \begin{flushleft}\ \end{flushleft}
-  \begin{flushright} Hours/week: 40 \end{flushright}\end
-{multicols}
+  \vspace{0.12cm}
 
 ```
+
 ```{=tex}
   \vspace{1.5pt}
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{Responsibilities:}\end{flushleft}
-\end{multicols}
 \vspace{-0.16cm}
 \begin{enumerate}[itemsep=4.5pt,parsep=0pt,topsep=0pt,label = {\bullet}]
 
-    \item Responsible for supporting all aspects of the Pew journalism research portfolio of projects; these include fact-checking, proof-reading and background research to support the design and data collection of new research projects, statistical analysis, producing charts and tables for reports, writing and editing research reports; assist in writing survey questionnaires; responding to external requests for data/answering data related questions; training interns on Center standards and best practices; worked on a series of international survey projects centered around Western Europeans' attitudes towards the news media. 
+    \item Supported Pew journalism research projects performing: fact-checking, proofreading, background research, statistical analysis, chart/table production, report writing/editing, survey questionnaire assistance, data request responses, intern training, and worked on international survey projects on Western Europeans’ media attitudes.
 
   
-  \item Supervised a series of ten focus groups as part of a yearlong study exploring Americans’ views of the news media, the focus groups were later used to inform the development of a series of surveys to gain a deeper understanding of Americans' views of the news media \& journalists across a range of dimensions; managed all aspects of the focus groups, including developing \& editing the moderator guide, working with the vendor on recruitment and sample design, monitoring the focus groups and making adjustments, analyzing the raw transcripts for overall themes and main takeaways.
+  \item Supervised focus groups for a yearlong study on Americans’ views of the news media: developed moderator guide, managed recruitment/sample design, monitored sessions, analyzed transcripts for themes, and informed survey development.
   
-  \item Helped manage and edit various parts of Pew Research Center's annual State of the News Media Report, an annual report on key audience and economic indicators for a variety of sectors within the U.S. news media industry, the report is widely cited both within the news media industry and government as a barometer for the health of the industry; collected and analyzed cable and network news audience and economic data; worked with vendors to understand data limitations; worked on certain sections of the report's methodology; drafted, wrote, and edited the cable and network news sections of the report; fact-checked other sections of the report as needed; responded to data requests from journalists, academics, and various government agencies/officials.
+
+  \item Managed and edited Pew Research Center’s annual State of the News Media Report: collected/analyzed audience and economic data, collaborated with vendors, contributed to methodology sections, drafted/edited cable and network news sections, fact-checked, and responded to data requests from journalists, academics, and government officials.
 
     
 \end{enumerate}
 ```
-\vspace{7pt}
+\vspace{4pt}
 
 <!-- SKILLS -->
 
@@ -236,28 +213,45 @@ format:
 \end{large}
 \vspace{-0.16cm}
 ```
-**Languages and Tools** - *proficient:* R programming language, Python, SPSS, Wincross, SQL (SQLite, PostGreSQL), Qualtrics, Git, Azure DevOps *intermediate:* Cypher, Neo4j, Tensorflow/Keras, R Shiny, \LaTeX
 
-\vspace{.5pt}
+```{=tex}
 
-**Selected Coursework** - Deep Learning, Bayesian Machine Learning, Big Data Systems with Spark, Linear Models for Data Science, Statistical Learning, Data Engineering, Linear Algebra, Econometrics I & II, Data Visualization, Programming in Python.
+\vspace{0.25cm}
 
-\vspace{7pt}
+\begin{itemize}[label={},leftmargin=0em, itemsep=.9pt, parsep=2pt]
+
+\item \textbf{Languages:} Python, R, SQL, CSS, Cypher, \LaTeX
+
+\item \textbf{Libraries:} Tidyverse, NumPy, Pandas, scikit-learn, ggplot2, Tensorflow, Tidymodels, RegEx, XGBoost
+
+\item \textbf{Tools:} AWS, Jupyter Notebook, VS Code, WSL, Git, Shiny, Neo4J, Qualtrics, Quarto, Spark, OpenAI API, SageMaker
+
+\item \textbf{Technologies:} Machine Learning, LLMs, Neural Networks, Cloud Computing, Data Visualization, Transformers 
+
+\end{itemize}
+
+\vspace{5pt}
+
+```
 
 <!-- PUBLICATIONS -->
 
 ```{=tex}
+
 \begin{large}
 {\bf PUBLICATIONS}
   \vspace{3pt}
   \hrule
   \vspace{-0.17cm}
 \end{large}
+
 ```
+
 ```{=tex}
+
 \vspace{0.25cm}
 
-\begin{itemize}[label={},itemindent=-2em,leftmargin=2em, itemsep=3pt, parsep=3pt]
+\begin{itemize}[label={},itemindent=-2em,leftmargin=2em, itemsep=2pt, parsep=2pt]
 
 \item []  \href{https://www.pewresearch.org/fact-tank/2022/02/15/nearly-a-quarter-of-americans-get-news-from-podcasts/}{``Nearly a quarter of Americans get news from podcasts"} Walker. \textit{Pew Research Center}, 2022. 
 
@@ -301,7 +295,7 @@ format:
 \end{itemize}
 
 ```
-\vspace{7pt}
+\vspace{4pt}
 
 <!-- PRESENTATIONS -->
 

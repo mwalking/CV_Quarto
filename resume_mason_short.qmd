@@ -52,7 +52,7 @@ format:
 \begin{multicols}{2}
   \begin{flushleft} \textit{Master of Science, Data Science}
   \end{flushleft}
-  \begin{flushright} \textit{2021-2023}
+  \begin{flushright} \textit{2021 - 2023}
   \end{flushright}
 \end{multicols}
 ```
@@ -70,7 +70,7 @@ format:
 \begin{multicols}{2}
   \begin{flushleft} \textit{Bachelor of Arts, Political Science}
   \end{flushleft}
-  \begin{flushright} \textit{2013-2017}
+  \begin{flushright} \textit{2013 - 2017}
   \end{flushright}
 \end{multicols}
 \vspace{1.5pt}
@@ -82,14 +82,14 @@ format:
 ```{=tex}
 
 \begin{multicols}{2}
-  \begin{flushleft}{\bf University of Maryland, Joint Program in Survey Methodolgy}\end{flushleft}
+  \begin{flushleft}{\bf University of Maryland, Joint Program in Survey Methodology}\end{flushleft}
   \begin{flushright} College Park, MD\end{flushright}
 \end{multicols}
 \vspace{-0.17cm}
 \begin{multicols}{2}
   \begin{flushleft} \textit{Graduate Certificate, Fundamentals of Survey Statistics}
   \end{flushleft}
-  \begin{flushright} \textit{2024-present} \end{flushright}
+  \begin{flushright} \textit{2024 - Present} \end{flushright}
 \end{multicols}
 
 \vspace{1.5pt}
@@ -109,7 +109,7 @@ format:
   \vspace{-0.12cm}
   \begin{multicols}{2}
     \begin{flushleft}\textit{Research Analyst}\end{flushleft}
-    \begin{flushright} \textit{2022-present} \end{flushright}\end
+    \begin{flushright} \textit{2022 - Present} \end{flushright}\end
   {multicols}
     \vspace{0.12cm}
 
@@ -122,24 +122,24 @@ format:
 \vspace{-0.16cm}
 \begin{enumerate}[itemsep=4.5pt,parsep=0pt,topsep=0pt,label = {\bullet}]
 
-    \item As a research analyst, serve as a resource for senior management on research, technical and other matters; complete special projects, as assigned; coordinate/respond to data requests, including those from our regulator and other government agencies requiring advanced subject matter/statistical knowledge; work with other SDG\&E analysts to coordinate the research needed to respond to requests for information about our customers; develop/give presentations to internal/external stakeholders regarding customer metrics.
+    \item Actively work with senior management on research, technical and other matters; complete special projects, as assigned; coordinate/respond to data requests, including those from our regulator and other government agencies requiring advanced subject matter/statistical knowledge; work with other SDG\&E analysts to coordinate the research needed to respond to requests for information about our customers; develop and present customer findings in a digestible manner to key stakeholders.
 
 
-  \item Led a state-mandated project requiring SDG\&E to target certain customers for specific electric rates \& technologies; used cluster analysis to create customer profiles of 500k customers using a combination of internal SDG\&E and Census data to segment customers based on demographics and electric usage; cluster analysis was later used with supervised machine learning to predict which customers might be likely candidates for the proposed new rates. 
+  \item Led a state-mandated project requiring SDG\&E to target certain customers for specific electric rates \& technologies; used cluster analysis to create customer profiles of 500k customers using a combination of internal SDG\&E and US Census data to segment customers based on demographics and electric usage; cluster analysis was later used with supervised machine learning to predict which customers might be likely candidates for the proposed new electric rates. 
   
   
-  \item Member of SDG\&E's Office of Data Science, a small volunter team responsible for helping foster and spread data science across the company; helped develop one of SDG\&E's first data dive events, an all day event focused on teaching the basics of cluster analysis to others at the company; helped test the feasibility of deploying graph databases across the company and creating learning materials for the Cypher language; helped create internal how-to guides detailing to employees how they can access and install various data science tools, such as Conda, Git, Python, R, and Azure DevOps.  
+  \item Contributing  member of SDG\&E's Office of Data Science, a small volunteer team responsible for fostering and spreading data science across the company; helped develop one of SDG\&E's first data dive events, an event teaching the basics of cluster analysis; helped test the feasibility of deploying graph databases across the company and creating learning materials for the Cypher language; helped create internal how-to guides detailing to employees how to access and install various data science tools.
 
     
-  \item Oversee all aspects of survey questionnaire and design for the marketing team, including managing survey vendor relations and survey sampling procedures; help develop methods to create survey weights and other bias reduction techniques with the survey data given from vendors; review data files for accuracy, completeness, and adherence to company standards.
+  \item Oversee all aspects of survey questionnaire and design for the marketing team, including managing survey vendor relations and survey sampling procedures; help develop methods to create survey weights, sampling frame design, and review/edit questionnaires; review data files for accuracy, completeness, and adherence to company standards.
   
   
-  \item Create interactive dashboards in R Shiny illustrating various metrics and descriptive characteristics of SDG\&E customers for senior management and staff; merged SDG\&E data with various government data sources, such as Census, BLS and other sources to illustrate underserved \& harder to reach communities in the broader San Diego area for company focus, results were later incorporated into regulatory briefings; built interactive demographic profiles of customers at each zip code/census tract level for more targeted marketing campaigns and customer modeling.    
+  \item Create interactive dashboards in R Shiny to display various metrics and descriptive characteristics of SDG\&E customers for senior management and staff; merged SDG\&E data with various government data sources, such as Census, BLS and other sources to illustrate underserved \& difficult to reach communities in the broader San Diego area for company focus, results were later incorporated into regulatory briefings as well as modeling for more targeted customer marketing.    
 
     
 \end{enumerate}
 ```
-\vspace{0.5cm}
+\vspace{0.4cm}
 
 <!-- EXPERIENCE: 2ND BULLET -->
 
@@ -147,12 +147,12 @@ format:
 
 \begin{multicols}{2}
   \begin{flushleft}{\bf Pew Research Center}\end{flushleft}
-  \begin{flushright} Washington, DC \end{flushright}
+  \begin{flushright} Washington, D.C. \end{flushright}
 \end{multicols}
 \vspace{-0.12cm}
 \begin{multicols}{2}
   \begin{flushleft}\textit{Research Analyst I \& II}\end{flushleft}
-  \begin{flushright} \textit{2020-2022} \end{flushright}\end
+  \begin{flushright} \textit{2020 - 2022} \end{flushright}\end
 {multicols}
   \vspace{0.12cm}
 
@@ -167,19 +167,19 @@ format:
 \vspace{-0.16cm}
 \begin{enumerate}[itemsep=4.5pt,parsep=0pt,topsep=0pt,label = {\bullet}]
 
-    \item Wrote and authored a mix of comprehensive, lengthy research reports and relatively short analyses of research findings pertaining to Americans' attitudes towards the news media and newsroom demographics; analyzed and interpreted survey, demographic, or other data using statistical and other research tools; translated quantitative research findings into non-academic, clear prose for a general audience.
+    \item Authored a mix of comprehensive, lengthy research reports and relatively short analyses of research findings pertaining to Americans' attitudes towards the news media and newsroom demographics; analyzed and interpreted survey, demographic, and other data using statistical and other research tools; translated quantitative research findings into non-academic, clear prose for a general audience.
 
-    \item Conducted statistical analysis of both survey and non-survey data; created cross-tabs of survey data using the statistical software R and SPSS; created OLS and logistic regression models in R on survey data to test survey findings and control for confounding variables; created automated scripts in R to test for inter-coder reliability using Cronbach's alpha on open-end survey data; tested the statistical significance of survey findings; calculated variance and standard errors of Census microdata survey estimates using jacknife replicate weights in R.  
+    \item Conducted statistical analysis of both survey and non-survey data; created cross-tabs of survey data using the statistical software R and SPSS; created regression models in R on survey data to test survey findings; created automated scripts in R to test for inter-coder reliability on open-end survey data; tested the statistical significance of survey findings; calculated variance and standard errors of Census microdata survey estimates using replicate weights.  
     
-  \item Managed various Pew Research Center projects and publications; responsible for leading meetings, overseeing, and creating strict documentation for junior staff members to follow for the manual coding and categorization of open-end survey and non-survey data; created the sampling frame of Pew's journalist survey, which included over 100k+ journalists in the frame, also supervised the development of the webscraping used to create the frame; led a small team of interns and junior staffers in performing a content analysis of newsroom layoff data, results were later part of a short report.
+  \item Managed various Pew Research Center projects and publications; responsible for leading meetings, overseeing, and creating strict documentation for junior staff members to follow for the manual coding and categorization of open-end survey and non-survey data; created the sampling frame of Pew's journalist survey, which included over 100k+ journalists in the frame, also supervised the development of the webscraping used to create the frame; led a small team in performing a content analysis of newsroom layoff data, results were later part of a short report.
   
-  \item Created and coauthored a series of short reports using economic and demographic data from the Census Bureau and Bureau of Labor Statistics to describe the changing landscape of newsroom employment and employees in the U.S.; collected and analyzed the data and coordinated with members of BLS and Census to better understand the scopes and limits of the data; the reports were some of the most cited from the Pew journalism team.
+  \item Created and coauthored a series of short reports using economic and demographic data from the Census Bureau and BLS to describe the changing landscape of newsroom employment and employees in the U.S.; collected and analyzed the data and wrote the methodology describing the scopes and limits of the data; the reports were some of the most cited from the Pew journalism team.
 
 
     
 \end{enumerate}
 ```
-\vspace{0.5cm}
+\vspace{0.4cm}
 
 <!-- EXPERIENCE: 3rd BULLET -->
 
@@ -187,12 +187,12 @@ format:
 
 \begin{multicols}{2}
   \begin{flushleft}{\bf Pew Research Center}\end{flushleft}
-  \begin{flushright} Washington, DC \end{flushright}
+  \begin{flushright} Washington, D.C. \end{flushright}
 \end{multicols}
 \vspace{-0.12cm}
 \begin{multicols}{2}
   \begin{flushleft}\textit{Research Assistant I \& II}\end{flushleft}
-  \begin{flushright} \textit{2017-2020} \end{flushright}\end
+  \begin{flushright} \textit{2017 - 2020} \end{flushright}\end
 {multicols}
   \vspace{0.12cm}
 
@@ -206,12 +206,12 @@ format:
 \vspace{-0.16cm}
 \begin{enumerate}[itemsep=4.5pt,parsep=0pt,topsep=0pt,label = {\bullet}]
 
-    \item Responsible for supporting all aspects of the Pew journalism research portfolio of projects; these include fact-checking, proof-reading and background research to support the design and data collection of new research projects, statistical analysis, producing charts and tables for reports, writing and editing research reports; assist in writing survey questionnaires; responding to external requests for data/answering data related questions; training interns on Center standards and best practices; worked on a series of international survey projects centered around Western Europeans' attitudes towards the news media. 
+    \item Responsible for supporting all aspects of the Pew journalism research portfolio of projects; including fact-checking, proof-reading and background research to support the design and data collection of new research projects, statistical analysis, producing charts and tables for reports, writing and editing reports; assist in writing survey questionnaires; responding to external requests for data/answering data related questions; worked on a series of international survey projects centered around Western Europeans' attitudes towards the news media. 
 
   
-  \item Supervised a series of ten focus groups as part of a yearlong study exploring Americans’ views of the news media, the focus groups were later used to inform the development of a series of surveys to gain a deeper understanding of Americans' views of the news media \& journalists across a range of dimensions; managed all aspects of the focus groups, including developing \& editing the moderator guide, working with the vendor on recruitment and sample design, monitoring the focus groups and making adjustments, analyzing the raw transcripts for overall themes and main takeaways.
+  \item Supervised a series of ten focus groups as part of a yearlong study exploring Americans’ views of the news media, the focus groups were later used to inform the development of a series of surveys to gain a deeper understanding of Americans' trust/attitudes of the news media \& journalists across a range of dimensions; managed all aspects of the focus groups, including developing \& editing the moderator guide, working with the vendor on recruitment and sample design, analyzing the raw transcripts for overall themes and main takeaways.
   
-  \item Helped manage and edit various parts of Pew Research Center's annual State of the News Media Report, an annual report on key audience and economic indicators for a variety of sectors within the U.S. news media industry, the report is widely cited both within the news media industry and government as a barometer for the health of the industry; collected and analyzed cable and network news audience and economic data; worked with vendors to understand data limitations; worked on certain sections of the report's methodology; drafted, wrote, and edited the cable and network news sections of the report; fact-checked other sections of the report as needed; responded to data requests from journalists, academics, and various government agencies/officials.
+  \item Helped manage and edit various parts of Pew Research Center's annual State of the News Media Report, an annual report on key audience and economic indicators for a variety of sectors within the U.S. news media industry; collected and analyzed cable and network news audience and economic data; worked with vendors to understand data limitations; worked on sections of the report's methodology; drafted, wrote, and edited the cable and network news sections of the report; fact-checked other sections as needed; responded to data requests from journalists, academics, and government agencies.
 
     
 \end{enumerate}
@@ -227,11 +227,11 @@ format:
 \end{large}
 \vspace{-0.16cm}
 ```
-**Languages and Tools** - *proficient:* R programming language, Python, SPSS, Wincross, SQL (SQLite, PostGreSQL), Qualtrics, Git, Azure DevOps *intermediate:* Cypher, Neo4j, Tensorflow/Keras, R Shiny, \LaTeX
+**Languages and Tools** - *proficient:* R programming language, Python, SPSS, Wincross, SQL (SQLite, PostGreSQL), Qualtrics, Git, Azure DevOps, Quarto *intermediate:* Cypher, Neo4j, Tensorflow/Keras, R Shiny, \LaTeX
 
 \vspace{.5pt}
 
-**Selected Coursework** - Deep Learning, Bayesian Machine Learning, Big Data Systems with Spark, Linear Models for Data Science, Statistical Learning, Data Engineering, Linear Algebra, Econometrics I & II, Data Visualization, Programming in Python.
+**Skills** - Survey methods, conventional statistics, descriptive statistics, data visualization, regression analysis, clustering, data analysis, focus groups, report writing, database design
 
 \vspace{7pt}
 

@@ -111,16 +111,16 @@ format:
   \item Led a state-mandated project to target certain customers for specific electric rates \& technologies; used unsupervised machine learning to segment 500k customers to predict which customers might be likely candidates for proposed new rate plans. 
   
   
-  \item Senior member of SDG\&E's Office of Data Science, a small team responsible for helping foster and spread data science across the company; help create learning guides to get folks started in their data science journey \& lead company-wide data science events.
-
-
-  \item Mentor junior staff members and teach them data science best practices \& provide feedback on their work.
+    \item Senior member of SDG\&E's Office of Data Science, a small team responsible for helping foster and spread data science across the company; create learning guides to get employees started in their data science journey \& lead company-wide data science events.
 
 
   \item Oversee all aspects of survey questionnaire and design for the marketing team, including managing survey vendor relations and survey sampling procedures; create survey weights as needed; review data files for accuracy, completeness, and adherence to company standards.
  
   
-  \item Work on various customer facing data science projects, such as improving the forecasting model used to predict daily customer call volumes; using Chat-GPT API to automate the analysis of open-end survey responses; create scripts to web-scrape survey data \& automate company KPI's.      
+  \item Manage various customer facing data science projects such as: improving the forecasting model used to predict daily customer call volumes; using Chat-GPT API to automate the analysis of open-end survey responses; create scripts to web-scrape survey data \& automate company KPI's.
+  
+
+  \item Mentor junior staff members and teach them data science best practices \& provide feedback on their work. 
 
     
 \end{enumerate}
@@ -194,7 +194,7 @@ format:
     \item Supported Pew journalism research projects performing: fact-checking, proofreading, background research, statistical analysis, chart/table production, report writing/editing, survey questionnaire assistance, data request responses, intern training, and worked on international survey projects on Western Europeans’ media attitudes.
 
   
-  \item Supervised focus groups for a yearlong study on Americans’ views of the news media: developed moderator guide, managed recruitment/sample design, monitored sessions, analyzed transcripts for themes, and informed survey development.
+  \item Supervised focus groups for a year-long study on Americans’ views of the news media: developed moderator guide, managed recruitment/sample design, monitored sessions, analyzed transcripts for themes, and informed survey development.
   
 
   \item Managed and edited Pew Research Center’s annual State of the News Media Report: collected/analyzed audience and economic data, collaborated with vendors, contributed to methodology sections, drafted/edited cable and network news sections, fact-checked, and responded to data requests from journalists, academics, and government officials.
@@ -281,12 +281,11 @@ format:
 
 \item[] \href{https://www.pewresearch.org/fact-tank/2019/09/12/who-pays-for-local-news-in-the-u-s/}{``Who pays for local news in the U.S.?"} Walker. \textit{Pew Research Center}, 2019.
 
-\item[] \href{https://www.pewresearch.org/fact-tank/2019/06/27/republicans-far-more-likely-than-democrats-to-say-fact-checkers-tend-to-favor-one-side/}{``Republicans far more likely than Democrats to say fact-checkers tend to favor one side"} Walker, Gottfried. \textit{Pew Research Center}, 2019.
+\item[] \href{https://www.pewresearch.org/fact-tank/2019/06/27/republicans-far-more-likely-than-democrats-to-say-fact-checkers-tend-to-favor-one-side/}{``Republicans far more likely than Democrats to say fact-checkers tend to favor one side"} Walker \& Gottfried. \textit{Pew Research Center}, 2019.
 
 \item[] \href{https://www.pewresearch.org/journalism/2019/06/05/many-americans-say-made-up-news-is-a-critical-problem-that-needs-to-be-fixed/}{``Many Americans say made-up news is a critical problem that needs to be fixed"} Mitchell, Gottfried, Stocking, Walker, Fedeli. \textit{Pew Research Center}, 2019.
 
-\item[] \href{https://www.pewresearch.org/journalism/2019/04/23/news-media-attitudes-in-france/}{``News media attitudes in France
-"} Sumida, Walker, Mitchell. \textit{Pew Research Center}, 2019.
+\item[] \href{https://www.pewresearch.org/journalism/2019/04/23/news-media-attitudes-in-france/}{``News media attitudes in France"} Sumida, Walker, Mitchell. \textit{Pew Research Center}, 2019.
 
 \item[] \href{https://www.pewresearch.org/journalism/2018/10/30/western-europeans-under-30-view-news-media-less-positively-rely-more-on-digital-platforms-than-older-adults/}{``Western Europeans under 30 view news media less positively, rely more on digital platforms than older adults"} Matsa, Silver, Shearer, Walker. \textit{Pew Research Center}, 2018.
 

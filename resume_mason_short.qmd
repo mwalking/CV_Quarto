@@ -91,7 +91,7 @@ format:
   \end{multicols}
   \vspace{-0.12cm}
   \begin{multicols}{2}
-    \begin{flushleft}\textit{Research Analyst}\end{flushleft}
+    \begin{flushleft}\textit{Senior Research Analyst}\end{flushleft}
     \begin{flushright} \textit{2022 - Present} \end{flushright}\end
   {multicols}
     \vspace{0.06cm}
@@ -112,9 +112,6 @@ format:
   
   
   \item Senior member of SDG\&E's Office of Data Science, a small team responsible for helping foster and spread data science across the company; help create learning guides to get folks started in their data science journey \& lead company-wide data science events.
-
-
-  \item Mentor junior staff members and teach them data science best practices \& provide feedback on their work.
 
 
   \item Oversee all aspects of survey questionnaire and design for the marketing team, including managing survey vendor relations and survey sampling procedures; create survey weights as needed; review data files for accuracy, completeness, and adherence to company standards.
